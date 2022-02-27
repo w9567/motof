@@ -43,8 +43,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // async function main() {
 //   try {
 //     const result = await login_cellphone({
-//       phone: '17750380906',
-//       password: 'ww980906',
+//       phone: '******',
+//       password: '*****',
 //     })
 //     // console.log(result)
 //     app.post('/getmusic',(request,response)=>{
@@ -176,7 +176,7 @@ app.post('/sendemail',(request,response)=>{
     secureConnection: false, // use SSL
     auth: {
       "user": 'w956792115@163.com', // 邮箱账号
-      "pass": 'WAWVDSUPFPAFIBBG' // 邮箱的授权码
+      "pass": '********' // 邮箱的授权码
     }
   });
   let options={
